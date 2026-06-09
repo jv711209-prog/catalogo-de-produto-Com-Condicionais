@@ -1,4 +1,4 @@
-using Microsoft.AspNetcore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 namespace catalogo_de_produto_com_Condicionais.controllers
 {
     public class ProdutoController : Controller
@@ -22,8 +22,8 @@ namespace catalogo_de_produto_com_Condicionais.controllers
         150,
         900,
     };
-    Viewbag.Produto = produtos;
-    Viewbag.precos = precos;
+    ViewBag.Produtos = produtos;
+    ViewBag.Precos = precos;
     return View();
 
 }
